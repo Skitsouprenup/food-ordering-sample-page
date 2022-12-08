@@ -1,0 +1,13 @@
+.food-menu--img {
+	grid-column-start: 1;
+	grid-row-start: 1;
+}
+
+.food-menu--item--info {
+	grid-column-start: 1;
+	grid-row-start: 2;
+}
+
+.food-menu--item {
+	text-align: center;
+}

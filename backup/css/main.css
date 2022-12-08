@@ -1,0 +1,10 @@
+/* -----General----- */
+@import "general-styles.css";
+@import "navbar.css";
+@import "food-search.css";
+@import "categories.css";
+@import "food-menu.css";
+@import "footer.css";
+/* -----Queries----- */
+@import "queries/navbar-query.css" (max-width: 600px); 
+@import "queries/food-menu-query.css" (max-width: 600px); 

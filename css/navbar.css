@@ -1,0 +1,34 @@
+.logo {
+  margin: 5px;
+}
+
+.nav--container {
+	display: flex;
+	width: 100%;
+}
+
+.nav-list--container {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.nav-list {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	flex-wrap: wrap;
+	column-gap: 10px;
+	padding-right: 5px;
+}
+
+.nav-item > a {
+	font-family: var(--fm-secondary);
+	font-size: var(--fs-sm);
+}
+
+.nav-item > a:hover {
+	color: var(--clr-link-hover);
+}

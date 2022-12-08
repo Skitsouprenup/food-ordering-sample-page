@@ -1,0 +1,14 @@
+.food-search {
+	clear: left;
+	background-color: #47b4d1;
+}
+
+.search-txt {
+	padding: 1px 2px;
+	border-radius: 5px;
+}
+
+.btn-search,
+.search-txt {
+	margin: 5px 0;
+}

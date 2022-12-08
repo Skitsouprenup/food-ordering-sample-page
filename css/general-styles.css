@@ -1,0 +1,88 @@
+:root {
+	--fm-primary: 'Source Sans Pro', sans-serif;
+	--fm-secondary: Roboto Slab, serif;
+	--fm-heading: 'IBM Plex Sans', sans-serif;
+	
+	--fw-reg: 400;
+	--fw-light-bold: 500;
+	--fw-full-bold: 900;
+	
+	--fs-sm: 1.25rem;
+	--fs-md: 1.75rem;
+	--fs-md2: 2.25rem;
+	--fs-lg: 2.75rem;
+	
+	--clr-link: #1E90FF;
+	--clr-link-hover: #0000CD;
+}
+
+@font-face {
+	font-family: Roboto Slab;
+	src: url(../fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: var(--fm-primary);
+	font-weight: var(--fw-light-bold);
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: var(--clr-link);
+}
+
+a:hover {
+	color: lightblue;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 100%:
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+.btn {
+	cursor: pointer;
+	
+	background-color: #A0522D;
+	color: white;
+	font-size: 1.05rem;
+	border: 0;
+	padding: 4px;
+	border-radius: 5px;
+}
+
+.btn:hover {
+	background-color: #8B4513;
+}
+
+header, main, footer{
+	width: 100%;
+}
+
+.container {
+	padding: 5px;
+}
+
+/*
+ only used for images in categories
+ section
+*/
+.responsive-img {
+	width: 100%;
+}
+
+.categories--title,
+.food-menu--title {
+	font-family: var(--fm-heading);
+}

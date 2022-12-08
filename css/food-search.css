@@ -1,0 +1,16 @@
+.food-search {
+	background-color: #47b4d1;
+}
+
+.search-txt {
+	border-radius: 5px;
+	height: 1.75rem;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 4px;
+}
+
+.btn-search,
+.search-txt {
+	margin: 5px 0;
+}

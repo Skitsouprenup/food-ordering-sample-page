@@ -1,0 +1,32 @@
+.categories--title{
+	text-align: center;
+	margin: 0;
+	padding: 10px 0;
+}
+
+.categories-content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+	justify-content: center;
+	column-gap: 5px;
+}
+
+.float-text {
+	position: absolute;
+	width: 100%;
+	bottom: 10%;
+	text-align: center;
+	color: white;
+	font-family: var(--fm-secondary);
+	border-top: 1px dashed white;
+	border-bottom: 1px dashed white;
+	background-color: rgba(0,0,0,.5);
+}
+
+.categories-content--item {
+	position: relative;
+}
+
+.categories-content--img {
+	border-radius: 5px;
+}
